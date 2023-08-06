@@ -1,0 +1,127 @@
+/* Reset default margin and padding for all elements */
+* {
+   line-height: 0%;
+    box-sizing: border-box;
+    /* This ensures padding and border are included in element's total width and height */
+}
+
+.main{
+    padding-top: 30px;
+    height: 60%;
+    width: 50%;
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+}
+.heading{
+   
+    color: rgb(26, 33, 172);
+    font-weight: bolder;
+    text-align: center;
+    width: 70%;
+    height: 1px;
+    padding-top: 9px;
+    color: rgb(50, 25, 173);
+  text-shadow: 2px 2px 4px #000000;
+ 
+ 
+ 
+}
+.div1{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 1px;
+    height: 80px;
+    /* margin: 40px; */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.div2{
+    border-style: solid;
+    border-color: rgb(0, 255, 136);
+    border-radius: 1px;
+    height: 160px;
+    /* margin: 40px; */
+    width: 70%;
+    padding-top: 10px;
+    background: #e4ebe6;
+}
+.div3{
+    border-style: solid;
+    border-color: rgb(177, 18, 122);
+    border-radius: 1px;
+    height: 80px;
+    /* margin: 40px; */
+    width: 70%;
+    padding-top: 10px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    padding-top: 22px;
+    padding-left: 14px;
+}
+.col3{
+    padding-top: 22px;
+   padding-right: 7px;
+}
+.drop-down{
+    margin-top: 8px;
+    width: 370px;
+    line-height: 0%;
+    margin-left: 27px;
+
+}
+.col2{
+    line-height: 0%;
+    margin-right: 75px;
+    
+}
+.submit-btn{
+    width: 70%;
+    margin-left: 0px;
+    height: 50px;
+    margin-bottom: 6px;
+    color: white;
+    background: green;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+
+.foot{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 20px;
+}
+.foot-div1{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(30, 131, 20);
+}
+.foot-div2{
+    font-weight: bold;
+}
+.line1{
+    font-weight: 100;
+    font-size: medium;
+}
+.caption{
+    margin-left: 390px;
+    line-height: 0%;
+    gap: 0%;
+}
